@@ -1,0 +1,40 @@
+/* Nav Styles */
+
+.cars-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Target the main logo image */
+
+.cars-nav img{
+    width: 65%;
+    max-width: 100%;
+    margin-left: 7vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    border: 2px solid black;
+    border-radius: 11px;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display: inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    color: black;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid black;
+    border-radius: 11px;
+    margin-right: 0.2vw;
+    background-color: rgb(186, 186, 186);
+}
+
+/* End of nav styles */
