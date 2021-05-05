@@ -3,15 +3,17 @@
 .cars-nav{
     display: flex;
     justify-content: space-between;
+    /* background-color: rgb(255, 183, 0); */
+    background-image: url("../../static/images/asphalt3.jpg")
 }
 
 /* Target the main logo image */
 
 .cars-nav img{
-    width: 65%;
+    width: 50%;
     max-width: 100%;
-    margin-left: 7vw;
-    margin-top: 2vw;
+    margin-left: 10vw;
+    margin-top: 1vw;
     margin-bottom: 1vw;
     border: 2px solid black;
     border-radius: 11px;
@@ -27,14 +29,115 @@ ul#horizontal-list li, ul#horizontal-list a{
     display: inline;
     text-decoration: none;
     padding: 0.5vw;
-    color: black;
+    color: white;
+    font-weight: bold;
 }
 
 ul#horizontal-list a:nth-last-child(1){
     border: 2px solid black;
     border-radius: 11px;
     margin-right: 0.2vw;
-    background-color: rgb(186, 186, 186);
+    background-color: rgb(146, 146, 146);
 }
 
 /* End of nav styles */
+
+/* Start of Hero/Header Section */
+
+.container{
+    
+}
+
+#header-text{
+    margin-top: 2vw;
+    padding-top: 2vw;
+    padding-left: 0vw;
+    padding-bottom: 2vh;
+}
+
+#header-text h2{
+    padding-bottom: 2vh;
+}
+
+#header-text h5{
+    padding-bottom: 1vh;
+}
+
+.header-image{
+    margin-top: 7vh;
+    width: 75%;
+    max-width: 100%;
+    border: 2px solid black;
+    border-radius: 11px;
+}
+/* End of Hero/Header Section */
+
+
+/* Start of Middle Section */
+
+#middle-text{
+    text-align: center;
+    padding: 7vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    /* background: url("../../static/images/toy_cars_grid.jpg"); */
+    background-color: rgb(146, 146, 146);
+    border-radius: 11px;
+    /* color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; */
+    /* font-size: 10vmax; */
+    border: 2px solid black;
+    border-radius: 11px;
+}
+/* #middle-text h2{
+    padding: 1.5vw;
+} */
+
+/* End of Middle Section
+
+Start of Features Section */
+
+#api-image,#graphql-image,#database-image{
+    margin-bottom: 5vh;
+    padding-left: 5vw;
+}
+
+#features-section{
+    margin-top: 3vw;
+    margin-bottom: 8vh;
+}
+
+/* End of Features Section */
+
+/* Start Community Section */
+
+#community-image{
+    width: 75%;
+    max-width: 75%;
+    margin-left: 3vw;
+    border: 2px solid black;
+    border-radius: 11px;
+}
+/* End of Community Section */
+
+/* Start of Footer */
+
+.footer-text-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+
+#footer-logo{
+    width: 100%;
+    max-width: 100%;
+    border: 2px solid black;
+    border-radius: 11px;
+    margin-top: 3vw;
+}
+
+#footer{
+    border-top: 3px solid black;
+    margin-top: 20vh;
+}
