@@ -18,7 +18,7 @@ def signup():
             print(email,password)
 
             user = User(email, password = password)
-            #user = db.session.query(User(email, password = password)).first()
+            
             db.session.add(user)
             db.session.commit()
 

@@ -2,3 +2,4 @@ cars_env
 __pycache__
 .env
 .vscode
+migrations
